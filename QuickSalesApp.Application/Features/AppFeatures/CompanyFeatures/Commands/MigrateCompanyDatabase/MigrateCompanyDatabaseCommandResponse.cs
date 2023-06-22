@@ -1,0 +1,5 @@
+﻿namespace QuickSalesApp.Application.Features.AppFeatures.CompanyFeatures.Commands.MigrateCompanyDatabase
+{
+    public sealed record MigrateCompanyDatabaseCommandResponse(
+        string Message = "Şirketlerin Database Bilgileri Güncellendi.");
+}

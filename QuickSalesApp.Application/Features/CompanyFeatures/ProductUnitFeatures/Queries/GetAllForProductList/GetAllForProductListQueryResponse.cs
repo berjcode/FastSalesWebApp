@@ -1,0 +1,33 @@
+﻿namespace QuickSalesApp.Application.Features.CompanyFeatures.ProductUnitFeatures.Queries.GetAllForProductList;
+
+public sealed record GetAllForProductListQueryResponse(
+        int ProductUnitId,
+        int ProductId,
+        string ProductName,
+        string ProductCode,
+        decimal Price,
+        bool? IsActive,
+        string Barcode,
+        int BarcodeId,
+        string Photo,
+        decimal Factor,
+        DateTime? CreatedDate,
+        string CreatorName,
+        string UnitName,
+        int UnitId,
+        int CategoryId,
+        int VatTypeId,
+        int ProductTypeId,
+        int VatTypeValue,
+        string VatTypeName,
+        string GroupCode,
+        int speCode1,
+        int speCode2,
+        int speCode3,
+        int speCode4,
+        int speCode5,
+        bool IsVat,
+        bool IsDefault,
+        decimal Amount,
+        int TotalProduct
+     );
